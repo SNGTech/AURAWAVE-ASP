@@ -1,0 +1,4 @@
+backend/Test_Gen1_LSTM/dataset/
+backend/EEG_Extract/test_dataset/
+backend/EEG_Extract/eeg_music_dataset/
+backend/Basic_Music_Classifier/ds004504/
