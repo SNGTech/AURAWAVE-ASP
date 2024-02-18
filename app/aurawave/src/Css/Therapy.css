@@ -1,0 +1,93 @@
+.body-therapy {
+  display: flex;
+  flex-direction: row;
+  font-size: 32px;
+  align-content: flex-start;
+  color: #7a8cff;
+}
+
+.section-therapy {
+  width: 100%;
+  margin-top: 4rem;
+  text-align: center;
+  flex-grow: 1;
+}
+
+.section-therapy h2 {
+    margin-bottom: 2rem;
+    font-weight: 600;
+} 
+
+button {
+    background-color: #7a8cff;
+    color: white;
+    font-size: 16px;
+    border: none;
+    padding: 16px 24px;
+    cursor: pointer;
+    transition: background-color 0.1s;
+    border-radius: 2px;
+    text-transform: uppercase;
+    min-width: 115px;
+  }
+  
+  button:hover {
+    background-color: #94a3ff;
+  }
+
+.button-center {
+    display: flex;
+    justify-content: center;
+}
+
+.background-card {
+  margin-top: 2rem;
+}
+
+.predicted-music {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: fit-content;
+  margin-top: 3rem;
+  border: 3px solid #7682cf;
+  border-radius: 10px;
+}
+
+.predicted-music p {
+  margin: 0;
+  background-color: #7682cf;
+  color: #e7e7e7;
+  font-size: 0.9em;
+  font-weight: 500;
+  padding: 0.5rem;
+}
+
+.music-background {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+}
+
+.music-card {
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.thumbnail-card {
+  display: block;
+  max-width: calc(300px + 2rem);
+  max-height: calc(400px + 1rem);
+  background-color: #f2f2f2;
+  padding-block: 0.5rem;
+  padding-inline: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}

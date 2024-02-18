@@ -1,0 +1,114 @@
+.body-diagnosis {
+    display: flex;
+    flex-direction: row;
+    font-size: 32px;
+    align-content: flex-start;
+    color: #7a8cff;
+}
+
+.section-diagnosis {
+    flex-grow: 1;
+
+
+    display: flex;
+    flex-direction: column;
+}
+
+.section-diagnosis h1 {
+    margin: 0px;
+    padding: 0.5rem 0.5rem 0rem 0.5rem;
+    font-size: 1em;
+    color: #7a8cff;
+    font-weight: 500;
+    text-align: left;
+}
+
+.section-diagnosis hr {
+    border-color: #F8F8F8;
+    margin: 0rem 0.5rem 0rem 0.5rem;
+}
+
+.section-diagnosis p {
+    margin: 0px;
+    padding: 0.5rem;
+    font-size: 0.625em;
+    color: black;
+}
+
+.diagnosis-main {
+    padding: 0.5rem;
+    flex-grow: 1;
+    border-radius: 1rem;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.diagnosis-container {
+    flex-grow: 1;
+
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    grid-template-areas: "dc1 dc2";
+}
+
+.diagnosis-item1 {
+    grid-area: dc1;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.diagnosis-item2 {
+    grid-area: dc2;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+/* .item-comment {
+    background-color: #f2f2f2;
+    border-radius: 0.5rem;
+} */
+
+.sub-container {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    grid-template-areas: "sc sd";
+}
+
+.sub-comment {
+    grid-area: sc;
+    display: flex;
+    flex-direction: column;
+}
+
+.sub-doctor {
+    grid-area: sd;
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    background-color: #7a8cff;
+    color: white;
+    font-size: 16px;
+    border: none;
+    padding: 16px 24px;
+    cursor: pointer;
+    transition: background-color 0.1s;
+    border-radius: 2px;
+    text-transform: uppercase;
+    min-width: 115px;
+  }
+  
+  button:hover {
+    background-color: #94a3ff;
+  }
+
+.button-doctor {
+    margin-inline: 0.5rem;
+    margin-block: 1rem;
+    width: 300px;
+    height: 54px;
+}

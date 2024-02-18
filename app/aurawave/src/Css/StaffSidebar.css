@@ -1,0 +1,72 @@
+.topbar-sticky {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: calc(50px + 1rem);
+    padding-inline: 1rem;
+    padding-block: 0.5rem;
+    text-align: center;
+    background-color: #f2f2f2;
+    background-color: rgba(240, 240, 240, 0.80);
+    font-size: 32px;
+    display: flex;
+    flex-direction: row;
+}
+
+.topbar-profile {
+    min-width: 50px;
+    min-height: 50px;
+    border-radius: 0.5rem;
+    display: grid;
+    place-items: center;
+}
+  
+  .topbar-profile img {
+    margin: 0px;
+    padding: 0.25rem;
+    width: 50px;
+    height: 50px;
+  }
+
+.topbar-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.topbar-sticky ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .topbar-sticky li {
+    margin: 0;
+    text-align: center;
+  }
+  
+  .topbar-sticky li a {
+    height: 50px;
+    min-width: 100px;
+    text-decoration: none;
+    font-size: 0.80em;
+    color: #7a8cff;
+    font: Poppins;
+    font-weight: 400;
+    display: block;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+  }
+  
+  .topbar-sticky li a:hover {
+    background-color: #F8F8F8;
+    border-radius: 0.5rem;
+  } 
+  
+  .topbar-sticky li a:active {
+    background-color: #F8F8F8;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }

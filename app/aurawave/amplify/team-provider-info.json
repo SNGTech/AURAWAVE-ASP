@@ -1,0 +1,20 @@
+{
+  "master": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-aurawavereactjs-master-95739-authRole",
+      "UnauthRoleArn": "arn:aws:iam::624153747423:role/amplify-aurawavereactjs-master-95739-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::624153747423:role/amplify-aurawavereactjs-master-95739-authRole",
+      "Region": "ap-southeast-1",
+      "DeploymentBucketName": "amplify-aurawavereactjs-master-95739-deployment",
+      "UnauthRoleName": "amplify-aurawavereactjs-master-95739-unauthRole",
+      "StackName": "amplify-aurawavereactjs-master-95739",
+      "StackId": "arn:aws:cloudformation:ap-southeast-1:624153747423:stack/amplify-aurawavereactjs-master-95739/a75ff900-cbe8-11ee-a441-02f0afb317df",
+      "AmplifyAppId": "d2i991yspiux4p"
+    },
+    "categories": {
+      "auth": {
+        "aurawavereactjs35967352": {}
+      }
+    }
+  }
+}

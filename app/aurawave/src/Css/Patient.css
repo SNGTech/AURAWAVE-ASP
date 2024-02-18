@@ -1,0 +1,80 @@
+.body-patient {
+    height: 100dvh;
+}
+
+.center-text {
+    align-self: center;
+}
+
+.patient-main {
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    font-size: 32px;
+    color: #7a8cff;
+    font-weight: 500;
+}
+
+.body-patient h1 {
+    margin: 0px;
+    padding: 0.5rem 0.5rem 0rem 0.5rem;
+    font-size: 1em;
+    color: #7a8cff;
+    font-weight: 500;
+    text-align: left;
+}
+
+.body-patient hr {
+    border-color: #F8F8F8;
+    margin: 0rem 0.5rem 0rem 0.5rem;
+}
+
+.patient-padding {
+    padding-inline: 12rem;
+    padding-block: 0.5rem;
+    
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.body-patient span {
+    text-align: center;
+    margin: 0px;
+    padding: 0.5rem;
+    font-size: 0.8em;
+    font-weight: 500;
+    color: #7a8cff;
+}
+
+.patient-cards {
+    height: 100%;
+
+    display: flex;
+    flex-direction: row;
+    gap: 10rem;
+}
+
+.patient-cards div {
+    flex: 1;
+    aspect-ratio: 1/1;
+
+    background-color: #f2f2f2;
+    border-radius: 0.5rem;
+}
+
+.img-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.body-patient p {
+    margin: 0px;
+    padding: 0.5rem;
+    font-size: 0.625em;
+    color: black;
+    text-align: left;
+}
