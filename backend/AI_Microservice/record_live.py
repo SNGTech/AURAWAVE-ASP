@@ -11,9 +11,9 @@ class RecorderLive:
         # Influx Configurations
         self.BUCKET = "eeg_data"
         self.ORG = "AurawaveData"
-        TOKEN = "Qgo8yHYFH6RV_Q7iWU3JYxO2CsuTgZRn_IkIje31vrDrGisFS3b2wdrl3sO-Lqmizvs87IPJoHebjaJL8-lb0Q=="
+        TOKEN = "Qgo8yHYFH6RV_Q7iWU3JYxO2CsuTgZRn_IkIje31vrDrGisFS3b2wdrl3sO-Lqmizvs87IPJoHebjaJL8-lb0Q==" # CHANGE TOKEN TO your InfluxDB Token
         # Store the URL of your InfluxDB instance
-        URL="http://localhost:8086"
+        URL="http://localhost:8086" # CHANGE THIS TO your IPv4 Address of your Computer Server, port should match your InfluxDB port
 
         self.client = influxdb_client.InfluxDBClient(url=URL, org=self.ORG, token=TOKEN)
         self.write_api = self.client.write_api(write_options=SYNCHRONOUS)
